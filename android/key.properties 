@@ -1,0 +1,4 @@
+storePassword=azerty1A
+keyPassword=azerty1A
+keyAlias=upload
+storeFile=~/upload-keystore.jks

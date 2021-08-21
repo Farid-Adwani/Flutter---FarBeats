@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.untitled">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
    <application
-        android:label="untitled"
+        android:requestLegacyExternalStorage="true"
+        android:label="FarBeats"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
